@@ -22,6 +22,7 @@ def get_html(code):
     except:
         time.sleep(10)
         print("ReadTimeout - Sleep for 10 sec")
+        get_code(code_old)
 
 
 def get_code(code_old):
